@@ -9,6 +9,9 @@ input.onButtonPressed(Button.A, function () {
         basic.showString("H")
     }
 })
+input.onButtonPressed(Button.AB, function () {
+    tmp = 15
+})
 input.onButtonPressed(Button.B, function () {
     tmp += 1
     if (tmp < 18) {
@@ -18,7 +21,4 @@ input.onButtonPressed(Button.B, function () {
         basic.showString("" + (tmp))
         basic.showString("H")
     }
-})
-basic.forever(function () {
-	
 })
